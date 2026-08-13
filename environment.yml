@@ -27,7 +27,9 @@ dependencies:
   - matplotlib
   - pandas
   - sympy
+  - seaboarn
+  - statsmodels
   - pip:
-      - detect-secrets  # Optional: secret scanning for commits/CI
+      - StackGP
 prefix: ./envs
 
