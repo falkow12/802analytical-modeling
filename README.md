@@ -44,26 +44,26 @@ without requiring everyone to configure their computers in exactly the same way.
 
 This repository includes an `environment.yml` file that describes the software needed for the assignment.
 
-We will use Conda to create an environment in a local `./envs` directory.
+We will use Conda to create an environment in a local `./.envs` directory.
 
 ### Quick Start
 
 Create the environment:
 
 ```bash
-conda env create --prefix ./envs --file environment.yml
+conda env create --prefix ./.envs --file environment.yml
 ```
 
 If the environment already exists, update it:
 
 ```bash
-conda env update --prefix ./envs --file environment.yml --prune
+conda env update --prefix ./.envs --file environment.yml --prune
 ```
 
 Activate the environment:
 
 ```bash
-conda activate ./envs
+conda activate ./.envs
 ```
 
 Start-up Jupyter Lab using the environment:
